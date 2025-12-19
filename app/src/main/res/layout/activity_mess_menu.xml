@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rootLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#E3F2FD"
+    android:padding="0dp">
+
+    <!-- Header with Logo and Title -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#2196F3"
+        android:padding="20dp"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/dostel_logo"
+            android:contentDescription="Dostel Logo" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mess Menu"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:paddingStart="12dp" />
+    </LinearLayout>
+
+    <!-- Day Switcher -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp">
+
+        <Button
+            android:id="@+id/prevDayBtn"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:text="◀"
+            android:textSize="25sp"
+            android:backgroundTint="#2196F3"
+            android:textColor="#FFFFFF"
+            android:background="?android:selectableItemBackgroundBorderless" />
+
+        <TextView
+            android:id="@+id/currentDayText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Monday's Menu"
+            android:textSize="20sp"
+            android:textColor="#2196F3"
+            android:textStyle="bold"
+            android:paddingStart="24dp"
+            android:paddingEnd="24dp" />
+
+        <Button
+            android:id="@+id/nextDayBtn"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:text="▶"
+            android:textSize="25sp"
+            android:backgroundTint="#2196F3"
+            android:textColor="#FFFFFF"
+            android:background="?android:selectableItemBackgroundBorderless" />
+    </LinearLayout>
+
+    <!-- Menu Cards Section -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Meal Item Template -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            card_view:cardElevation="6dp"
+            card_view:cardCornerRadius="16dp">
+
+            <TextView
+                android:id="@+id/breakfastTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Breakfast: Aloo Paratha"
+                android:textSize="18sp"
+                android:padding="16dp"
+                android:textColor="#333333"
+                android:textStyle="bold" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            card_view:cardElevation="6dp"
+            card_view:cardCornerRadius="16dp">
+
+            <TextView
+                android:id="@+id/lunchTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lunch: Rajma Chawal"
+                android:textSize="18sp"
+                android:padding="16dp"
+                android:textColor="#333333"
+                android:textStyle="bold" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            card_view:cardElevation="6dp"
+            card_view:cardCornerRadius="16dp">
+
+            <TextView
+                android:id="@+id/snacksTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Snacks: Bread Pakora"
+                android:textSize="18sp"
+                android:padding="16dp"
+                android:textColor="#333333"
+                android:textStyle="bold" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            card_view:cardElevation="6dp"
+            card_view:cardCornerRadius="16dp">
+
+            <TextView
+                android:id="@+id/dinnerTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dinner: Paneer + Chapati"
+                android:textSize="18sp"
+                android:padding="16dp"
+                android:textColor="#333333"
+                android:textStyle="bold" />
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+</LinearLayout>

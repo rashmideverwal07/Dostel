@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:padding="20dp">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:padding="5dp">
+
+
+    <!-- Logo -->
+        <ImageView
+            android:id="@+id/loginLogo"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/dostel_logo"
+            android:layout_marginTop="24dp"
+            android:contentDescription="App Logo" />
+
+        <!-- Tagline -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Your Second Home at College!"
+            android:textSize="18sp"
+            android:textColor="#555555"
+            android:textStyle="italic"
+            android:layout_marginTop="12dp" />
+
+        <!-- Spacing -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="65dp" />
+
+        <!-- CardView for login form -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            card_view:cardCornerRadius="16dp"
+            card_view:cardElevation="6dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="16dp"
+            android:padding="20dp"
+            android:backgroundTint="#FAFAFA">
+
+            <LinearLayout
+                android:layout_width="365dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <!-- Login Title -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="18dp"
+                    android:text="Dostel Login"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <!-- Email -->
+                <EditText
+                    android:id="@+id/loginEmailEditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Email"
+                    android:inputType="textEmailAddress" />
+
+                <!-- Password -->
+
+                <!-- Login Button -->
+                <EditText
+                    android:id="@+id/loginPasswordEditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:hint="Password"
+                    android:inputType="textPassword" />
+
+                <Button
+                    android:id="@+id/loginButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:backgroundTint="#1E88E5"
+                    android:text="Login"
+                    android:textColor="#FFFFFF" />
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Signup Redirect -->
+        <TextView
+            android:id="@+id/signupRedirectText"
+            android:text="Don't have an account? Sign Up"
+            android:textColor="@android:color/holo_blue_dark"
+            android:layout_marginTop="12dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="20dp"
+            android:indeterminate="true"
+            android:visibility="gone" />
+
+
+    </LinearLayout>
+</ScrollView>

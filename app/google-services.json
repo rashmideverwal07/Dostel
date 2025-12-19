@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "545910448732",
+    "project_id": "dostel-18912",
+    "storage_bucket": "dostel-18912.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:545910448732:android:d73ab9eda9267674ebbc99",
+        "android_client_info": {
+          "package_name": "com.igdtuw.dostel"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMKXJlbYEmAwwR6Y6WXawxhMPojbDOuE0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

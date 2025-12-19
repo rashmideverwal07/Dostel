@@ -1,0 +1,35 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    android:elevation="4dp"
+    android:layout_margin="8dp"
+    android:padding="12dp">
+
+    <TextView
+        android:id="@+id/announcementTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Title"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/announcementDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date"
+        android:textSize="14sp"
+        android:textColor="#757575"
+        android:layout_marginBottom="4dp" />
+
+    <TextView
+        android:id="@+id/announcementContent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Announcement content goes here."
+        android:textSize="16sp"
+        android:textColor="#333333" />
+</LinearLayout>
