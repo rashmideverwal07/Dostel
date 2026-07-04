@@ -41,14 +41,11 @@ The project was built as a learning-based application to understand Android deve
 
 | Home Screen | Hostel Info |
 |-------------|----------------|
-| ![Home] <img width="720" height="1600" alt="image" src="https://github.com/user-attachments/assets/3390b3c6-f9f4-4fe1-91e0-1ab9a8e0f29e" />
- | ![Hostel Info]<img width="720" height="1600" alt="image" src="https://github.com/user-attachments/assets/db26cbcb-a217-4353-9b73-bcee4d9de0b4" />
- |
+| ![Home] <img width="720" height="1600" alt="image" src="https://github.com/user-attachments/assets/3390b3c6-f9f4-4fe1-91e0-1ab9a8e0f29e" />| ![Hostel Info]<img width="720" height="1600" alt="image" src="https://github.com/user-attachments/assets/db26cbcb-a217-4353-9b73-bcee4d9de0b4" />|
 
 | Profile Screen | Social Hub  |
 |----------------|----------------|
-| ![Profile]<img width="720" height="1600" alt="image" src="https://github.com/user-attachments/assets/e296353e-08d9-4acc-96ea-3f1e586a53bb" />
- | ![Social Hub]<img width="720" height="1600" alt="image" src="https://github.com/user-attachments/assets/07c8766f-123e-46c3-83bb-7e4dfe167f65" /> |
+| ![Profile]<img width="720" height="1600" alt="image" src="https://github.com/user-attachments/assets/6150c906-3515-41b4-898b-761ff7348d49" /> | ![Social Hub]<img width="720" height="1600" alt="image" src="https://github.com/user-attachments/assets/07c8766f-123e-46c3-83bb-7e4dfe167f65" /> |
 
 | Complaint Box | Announcements |
 |----------------|----------------|
