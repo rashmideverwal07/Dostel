@@ -33,6 +33,34 @@ The project was built as a learning-based application to understand Android deve
 - Hybrid UI approach using Jetpack Compose and XML  
 
 ---
+##  Screenshots
+
+| Login Screen | Sign Up Screen |
+|---------------|----------------|
+| ![Login](screenshots/login.png) | ![Sign Up](screenshots/signup.png) |
+
+| Home Screen | Hostel Info |
+|-------------|----------------|
+| ![Home] <img width="720" height="1600" alt="image" src="https://github.com/user-attachments/assets/3390b3c6-f9f4-4fe1-91e0-1ab9a8e0f29e" />
+ | ![Hostel Info]<img width="720" height="1600" alt="image" src="https://github.com/user-attachments/assets/db26cbcb-a217-4353-9b73-bcee4d9de0b4" />
+ |
+
+| Profile Screen | Social Hub  |
+|----------------|----------------|
+| ![Profile]<img width="720" height="1600" alt="image" src="https://github.com/user-attachments/assets/e296353e-08d9-4acc-96ea-3f1e586a53bb" />
+ | ![Social Hub]<img width="720" height="1600" alt="image" src="https://github.com/user-attachments/assets/07c8766f-123e-46c3-83bb-7e4dfe167f65" /> |
+
+| Complaint Box | Announcements |
+|----------------|----------------|
+| ![Complaint Box]<img width="720" height="1600" alt="image" src="https://github.com/user-attachments/assets/8690e904-1b2e-4a8c-85b1-82adfe05b063" />| ![Announcements] <img width="1080" height="2400" alt="image" src="https://github.com/user-attachments/assets/a64c985b-aa75-4b8f-9b64-082466f1ad0d" />|
+
+
+|  | Mess Menu |
+|----------------|----------------|
+|[Mess Menu]<img width="720" height="1600" alt="image" src="https://github.com/user-attachments/assets/f7672769-bc28-4872-b14d-301d40e81090" />|
+
+
+
 
 ##  Testing
 - Tested on a physical Android device  
