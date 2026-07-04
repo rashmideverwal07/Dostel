@@ -45,5 +45,4 @@ This project is currently not deployed on the Play Store and was developed for l
 
 ---
 
-##  Acknowledgements
-This project was built using online resources and AI-assisted development tools as part of the learning process.
+
